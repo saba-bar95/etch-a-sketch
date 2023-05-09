@@ -1,0 +1,16 @@
+body {
+  background-color: gainsboro;
+}
+
+.container {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  border: 1px solid black;
+}
+
+.grid-square {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
