@@ -1,7 +1,6 @@
 const input = document.querySelector("input");
 const gridContainter = document.querySelector(".grid-container");
 const colorBtns = document.querySelector(".color-buttons");
-const random = document.querySelector(".random");
 let divs;
 
 const randomRgbColor = function () {
@@ -41,7 +40,7 @@ function createGrid(val = 16) {
   createHover(divs);
 }
 
-input.addEventListener("click", function (e) {
+input.addEventListener("click", function () {
   const value = input.value;
   createGrid(value);
 });
