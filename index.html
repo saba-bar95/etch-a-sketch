@@ -9,6 +9,33 @@
     <title>Etch-a-Skatch</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="main">
+      <div class="header">
+        <h1>Eatch a Skatch</h1>
+      </div>
+      <div class="grid-info">
+        <div class="grid-size">
+          <label for="size">Select grid size</label>
+          <input
+            class="input"
+            type="range"
+            value="16"
+            min="1"
+            max="100"
+            oninput="rangeValue.innerText = `${this.value}x${this.value}`"
+          />
+          <p id="rangeValue" class="para">16x16</p>
+        </div>
+        <div class="grid-color">
+          <p class="color-para para">Select hover color type</p>
+          <div class="color-buttons">
+            <button class="color-btn black">Black</button>
+            <button class="color-btn random">Random</button>
+            <button class="color-btn reset">Reset</button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-container"></div>
+    </div>
   </body>
 </html>
