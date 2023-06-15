@@ -1,6 +1,8 @@
 const input = document.querySelector("input");
 const gridContainter = document.querySelector(".grid-container");
 const colorBtns = document.querySelector(".color-buttons");
+const para = document.querySelector(".para");
+para.textContent = `${input.value}x${input.value}`;
 let divs;
 
 const randomRgbColor = function () {
