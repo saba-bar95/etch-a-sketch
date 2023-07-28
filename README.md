@@ -4,9 +4,9 @@
 
 ### Build with
 
-* HTML
-* CSS
-* JavaScript Basics
+- HTML
+- CSS
+- JavaScript Basics
 
 ### [Live URL](https://saba-bar95.github.io/etch-a-sketch/)
 
