@@ -13,4 +13,3 @@
 ### Author
 
 - [GitHub](https://github.com/saba-bar95)
-- [Coderbyte](https://coderbyte.com/profile/gegewp)
